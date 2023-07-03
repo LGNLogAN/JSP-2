@@ -31,7 +31,7 @@
 
 		        ResultSet rs = stmt.executeQuery(sql);
 		        //out.print(rs.next());
-		        if (rs.next()){
+		        if (rs.next()){ //rs.next -> 다음 행의 값이 있으면 True 없으면 False 를 반환해준다.
 		            %>
 		            <table border="1">
 		                <tr>
