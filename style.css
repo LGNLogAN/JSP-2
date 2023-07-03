@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+body{margin:0;}
+
+header{
+	position:fixed; top:0px; width:100%;
+	line-height:50px;
+	font-size:35px;
+	color:white;
+	background-color:blue;
+	text-align:center;
+}
+
+nav{
+	position:fixed; top:50px; width:100%;
+	line-height:30px;
+	background-color:lightblue;
+}
+
+section{
+	position:fixed; top:80px; width:100%; height:100%;
+	background-color : lightgray;
+}
+
+footer{
+	position:fixed; bottom:0; width:100%;
+	line-height:20px;
+	color:white;
+	background-color:blue;
+	text-align:center;
+}
+
+h1{
+	text-align:center;
+}
+
+table{
+	margin:auto;
+}
+
+#special{
+	text-align:center;
+}
